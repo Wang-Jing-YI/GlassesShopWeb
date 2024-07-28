@@ -7,12 +7,32 @@
     <title>index</title>
   </head>
   <body>
-    <%- include('./layout/header'); -%>
+    <!-- <%- include('./layout/header'); -%> -->
 
-    <h1 class="index-title">我是首頁</h1>
-    <img src="../assets/images/cat.jpg" style="width: 300px;" alt="cat">
+    <nav class="nav">
+      <div class="container">
+        <div class="flex center justify-between">
+          <div class="nav-img">
+            <img src="../assets/images/logo-white.png" alt="logo-white" />
+          </div>
+          <ul class="flex">
+            <li><a href="#">系列鏡框</a></li>
+            <li><a href="#">門市據點</a></li>
+            <li><a href="#">部落格</a></li>
+            <li><a href="#">常見問題</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
 
-    <%- include('./layout/footer'); -%>
+    <header class="header">
+      <div class="container">
+        <h3>Promise-Desert 2020 早春系列</h3>
+        <h2>看得清，才能看得遠</h2>
+        <a href="#">立即購買</a>
+      </div>
+    </header>
+    <!-- <%- include('./layout/footer'); -%> -->
 
     <script type="module" src="../main.js"></script>
   </body>
