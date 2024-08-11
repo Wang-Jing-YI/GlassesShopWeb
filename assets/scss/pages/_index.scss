@@ -55,7 +55,7 @@ label {
 }
 
 .coBranded {
-  background-image: url(/GlassesShopWeb/assets/images/index-bg.png);
+  background-image: url(../images/index-bg.png);
   background-size: cover;
 }
 .coBranded .h2 {
@@ -96,7 +96,7 @@ label {
 
 @media (max-width: 768px) {
   .header {
-    background-image: url(/GlassesShopWeb/assets/images/home-header-sm.png);
+    background-image: url(../images/home-header-sm.png);
     background-position: 0%;
     background-size: auto;
   }
