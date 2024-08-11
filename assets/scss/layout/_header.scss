@@ -1,10 +1,12 @@
 .nav {
   background-color: #aa0601;
 }
-.nav a {
+.nav-list a {
   color: white;
   transition: 0.2s;
-  padding: 40px 12px 28px 12px;
+  padding: 25px 12px;
+  display: inline-block;
+  width: auto;
 }
 
 .nav-list a:hover {
@@ -14,18 +16,17 @@
   gap: 64px;
   text-align: center;
 }
-.nav li {
-  padding: 25px 0px;
-}
 .nav-img {
   max-width: 80px;
-  margin: 12px 0px;
 }
 
 @media (max-width: 576px) {
   .nav-img {
     width: 100%;
     margin: 15px;
+  }
+  .nav-list a {
+    width: 100%;
   }
   .nav .container {
     padding: 0px;
