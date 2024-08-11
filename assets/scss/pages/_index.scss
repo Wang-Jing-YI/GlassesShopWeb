@@ -1,208 +1,27 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
-
-html,
-body,
-div,
-span,
-applet,
-object,
-iframe,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-blockquote,
-pre,
-a,
-abbr,
-acronym,
-address,
-big,
-cite,
-code,
-del,
-dfn,
-em,
-img,
-ins,
-kbd,
-q,
-s,
-samp,
-small,
-strike,
-strong,
-sub,
-sup,
-tt,
-var,
-b,
-u,
-i,
-center,
-dl,
-dt,
-dd,
-ol,
-ul,
-li,
-fieldset,
-form,
-label,
-legend,
-table,
-caption,
-tbody,
-tfoot,
-thead,
-tr,
-th,
-td,
-article,
-aside,
-canvas,
-details,
-embed,
-figure,
-figcaption,
-footer,
-header,
-hgroup,
-menu,
-nav,
-output,
-ruby,
-section,
-summary,
-time,
-mark,
-audio,
-video {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: 100%;
-  font: inherit;
-  vertical-align: baseline;
-  text-decoration: none;
+input,
+textarea {
+  background-color: #fbf2f2;
+  border: 1px solid black;
+  padding: 6px 12px;
 }
-/* HTML5 display-role reset for older browsers */
-article,
-aside,
-details,
-figcaption,
-figure,
-footer,
-header,
-hgroup,
-menu,
-nav,
-section {
-  display: block;
+textarea {
+  height: 136px;
 }
-body {
-  line-height: 1;
-}
-ol,
-ul,
-li {
-  list-style: none;
-}
-blockquote,
-q {
-  quotes: none;
-}
-blockquote:before,
-blockquote:after,
-q:before,
-q:after {
-  content: "";
-  content: none;
-}
-table {
-  border-collapse: collapse;
-  border-spacing: 0;
+label {
+  margin-top: 16px;
 }
 
-@import url("https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=Noto+Sans+TC:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
-
-body {
-  font-family: "Roboto", "Noto Sans TC", sans-serif;
-  line-height: 1.5;
-}
-img {
-  max-width: 100%;
-  height: auto;
-  vertical-align: middle;
-}
-*,
-*::after,
-*::before {
-  box-sizing: border-box;
+.h2-alphabet {
+  font-size: 3rem;
+  font-style: italic;
+  font-weight: 900;
+  color: #aa0601;
 }
 
-.container {
-  max-width: 1320px;
-  margin: 0 auto;
-  padding: 0 12px;
+.secondary-background {
+  background-color: #fbf2f2;
 }
 
-.font-size-1 {
-  font-size: 4rem; /*64px*/
-}
-.font-size-2 {
-  font-size: 3rem; /*48px*/
-}
-.font-size-3 {
-  font-size: 2.25rem; /*36px*/
-}
-
-.font-size-4 {
-  font-size: 1.25rem; /*20px*/
-}
-
-.nav {
-  background-color: #aa0601;
-}
-.nav a {
-  color: white;
-}
-
-.nav ul {
-  gap: 64px;
-  text-align: center;
-}
-.nav li {
-  padding: 25px 0px;
-}
-.nav-img {
-  max-width: 80px;
-  margin: 12px 0px;
-}
-
-.flex {
-  display: flex;
-  flex-wrap: wrap;
-}
-.flex-column {
-  flex-direction: column;
-}
-.center {
-  align-items: center;
-}
-.justify-center {
-  justify-content: center;
-}
-.justify-between {
-  justify-content: space-between;
-}
 .header {
   background-image: url("/GlassesShopWeb/assets/images/home-header.png");
   background-size: cover;
@@ -213,47 +32,90 @@ img {
   height: 787px;
   text-align: right;
 }
-.btn {
-  color: white;
-  background-color: #aa0601;
-  padding: 6px 12px;
-}
+
 .header-text .font-size-1 {
   font-weight: 700;
 }
 .header-text .btn {
   margin-top: 4px;
 }
-@media (max-width: 576px) {
-  .font-size-1 {
-    font-size: 1.5rem;
-  }
-  .font-size-3 {
-    font-size: 1rem;
-  }
-  .nav-img {
-    width: 100%;
-    margin: 15px;
-  }
-  .nav .container {
-    padding: 0px;
-  }
-  .nav ul {
-    width: 100%;
-    gap: 0px;
-  }
-  .nav li {
-    width: 50%;
-    border: 1px solid white;
-  }
-  .nav .font-size-4 {
-    font-size: 1rem;
-  }
+
+.section-padding {
+  padding: 5rem 0;
 }
+
+.server img {
+  max-width: 83px;
+}
+.server .h3 {
+  margin: 16px 0px 8px 0px;
+}
+.server .column {
+  margin-top: 24px;
+}
+
+.coBranded {
+  background-image: url(/GlassesShopWeb/assets/images/index-bg.png);
+  background-size: cover;
+}
+.coBranded .h2 {
+  color: #ffffff;
+}
+.coBranded-tittle {
+  width: 100%;
+  background-color: white;
+  text-align: center;
+}
+.recommend {
+  border: 1px solid #dee2e6;
+  box-shadow: 0px 2px 6px #00000029;
+  border-radius: 4px;
+}
+.recommend article {
+  height: 205px;
+  padding: 1rem;
+}
+.date {
+  font-size: 14px;
+  color: #707070;
+  margin-top: auto;
+}
+.contact {
+  background-color: #fbf2f2;
+}
+.contact form {
+  margin-top: 8px;
+}
+.contact .btn {
+  cursor: pointer;
+  padding: 16px 0px;
+  border: none;
+  margin-top: 48px;
+  width: 416px;
+}
+
 @media (max-width: 768px) {
   .header {
     background-image: url(/GlassesShopWeb/assets/images/home-header-sm.png);
     background-position: 0%;
     background-size: auto;
+  }
+
+  .classicList {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contact .column {
+    margin-top: 24px;
+  }
+}
+@media (max-width: 576px) {
+  .section-padding {
+    padding: 2.5rem 0;
+  }
+  .contact .btn {
+    margin-top: 24px;
+    width: 100%;
   }
 }

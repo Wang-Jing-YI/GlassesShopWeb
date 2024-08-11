@@ -1,0 +1,44 @@
+.nav {
+  background-color: #aa0601;
+}
+.nav a {
+  color: white;
+  transition: 0.2s;
+  padding: 40px 12px 28px 12px;
+}
+
+.nav-list a:hover {
+  background-color: #650300;
+}
+.nav ul {
+  gap: 64px;
+  text-align: center;
+}
+.nav li {
+  padding: 25px 0px;
+}
+.nav-img {
+  max-width: 80px;
+  margin: 12px 0px;
+}
+
+@media (max-width: 576px) {
+  .nav-img {
+    width: 100%;
+    margin: 15px;
+  }
+  .nav .container {
+    padding: 0px;
+  }
+  .nav ul {
+    width: 100%;
+    gap: 0px;
+  }
+  .nav li {
+    width: 50%;
+    border: 1px solid white;
+  }
+  .nav .font-size-4 {
+    font-size: 1rem;
+  }
+}
