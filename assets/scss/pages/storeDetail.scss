@@ -1,0 +1,38 @@
+.store iframe {
+  max-width: 100%;
+  height: 100%;
+}
+.storeInfo {
+  border: 1px solid #00000020;
+}
+.infoLayout {
+  width: 100%;
+}
+@media (max-width: 768px) {
+  .store .half {
+    max-width: 100%;
+  }
+  .store img {
+    max-width: 50%;
+  }
+  .infoLayout {
+    width: 50%;
+    padding-left: 24px;
+  }
+  .store iframe {
+    height: 414px;
+  }
+}
+
+@media (max-width: 576px) {
+  .store img {
+    max-width: 100%;
+  }
+  .infoLayout {
+    width: 100%;
+    padding: 0;
+  }
+  .store iframe {
+    height: 208px;
+  }
+}

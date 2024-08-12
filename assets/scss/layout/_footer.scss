@@ -8,6 +8,9 @@
 .footer .nav li {
   padding: 0;
 }
+.footer .nav a {
+  color: #ffffff;
+}
 .footer .section-padding {
   padding-top: 60px;
 }
@@ -23,8 +26,11 @@
 }
 .material-icons-outlined {
   font-family: "Material Symbols Outlined";
-  color: white;
+  color: black;
   margin-right: 22px;
+}
+.footer .material-icons-outlined {
+  color: #ffffff;
 }
 .social-icon {
   gap: 32px;
