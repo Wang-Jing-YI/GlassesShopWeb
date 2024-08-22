@@ -40,6 +40,7 @@
   max-width: 48px;
 }
 .copyright {
+  border-top: 1px solid #ffffff;
   padding: 32px 0px;
 }
 .copyright-list {
@@ -56,12 +57,20 @@
   background-color: #aa0601;
   color: #650300;
 }
-@media (max-width: 768px) {
+/*768px*/
+@media (max-width: 992px) {
   .social-icon img {
     max-width: 40px;
   }
   .social-icon {
     gap: 16px;
+  }
+}
+
+@media (max-width: 768px) {
+  .footer .nav li {
+    width: auto;
+    border: none;
   }
 }
 
